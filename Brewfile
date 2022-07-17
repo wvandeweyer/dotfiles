@@ -4,12 +4,10 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
-tap 'stripe/stripe-cli'
 
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
-brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
@@ -17,12 +15,9 @@ brew 'git'
 brew 'gnupg'
 brew 'grep'
 brew 'httpie'
-brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 
 # Spatie Medialibrary
@@ -34,8 +29,6 @@ brew 'gifsicle'
 
 # Development
 brew 'php'
-brew 'php@8.0'
-brew 'php@7.4'
 brew 'composer'
 brew 'imagemagick'
 brew 'meilisearch'
@@ -44,42 +37,39 @@ brew 'nginx'
 brew 'node'
 brew 'redis'
 brew 'yarn'
+brew 'python3'
 
 # Apps
 cask '1password'
-cask 'caffeine'
+cask 'adobe-acrobat-reader'
+brew 'adobe-creative-cloud'
 cask 'dbngin'
-cask 'discord'
-cask 'docker'
 cask 'figma'
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
-cask 'gpg-suite'
-cask 'helo'
+cask 'hugo'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'pastebot'
-cask 'phpmon'
-cask 'ray'
+cask 'iterm2'
 cask 'screenflow'
-cask 'slack'
+cask 'spotify'
 cask 'tableplus'
-cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'tunnelbear'
-cask 'tuple'
 cask 'visual-studio-code'
+cask 'vlc'
 cask 'whatsapp'
-cask 'zoom'
 
 # Quicklook
 cask 'qlmarkdown'
 cask 'quicklook-json'
 
 # Fonts
+cask 'font-fira-code'
+cask 'font-jetbrains-mono'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
@@ -96,4 +86,6 @@ mas 'Numbers', id: 409203825
 mas 'Spark', id: 1176895641
 mas 'Speedtest', id: 1153157709
 mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
