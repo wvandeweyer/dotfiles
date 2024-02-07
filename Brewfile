@@ -28,12 +28,9 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
-brew 'php'
-brew 'composer'
 brew 'imagemagick'
 brew 'meilisearch'
 brew 'mysql'
-brew 'nginx'
 brew 'node'
 brew 'redis'
 brew 'yarn'
@@ -44,15 +41,13 @@ cask '1password'
 cask 'adobe-acrobat-reader'
 brew 'adobe-creative-cloud'
 cask 'dbngin'
-cask 'figma'
 cask 'firefox'
 cask 'github'
-cask 'google-chrome'
+cask 'herd'
 cask 'hugo'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
-cask 'screenflow'
 cask 'spotify'
 cask 'tableplus'
 cask 'the-unarchiver'
@@ -80,7 +75,6 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Spark', id: 1176895641
@@ -89,3 +83,6 @@ mas 'Things', id: 904280696
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
+mas "Microsoft Outlook", id:985367838
+mas "Microsoft OneDrive", id:477537958
+mas "Microsoft Teams", id:1113153706

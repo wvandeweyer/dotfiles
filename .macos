@@ -18,10 +18,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "MacBook Wim"
-sudo scutil --set HostName "MacBook Wim"
-sudo scutil --set LocalHostName "MacBook Wim"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MacBook Wim"
+sudo scutil --set ComputerName "MacBook Pro Wim"
+sudo scutil --set HostName "MacBook Pro Wim"
+sudo scutil --set LocalHostName "MacBook Pro Wim"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MacBook Pro Wim"
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
@@ -541,7 +541,7 @@ defaults write com.apple.Safari WarnAboutFraudulentWebsites -bool true
 #defaults write com.apple.SafariTechnologyPreview com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowsInlineMediaPlayback -bool false
 
 # Enable “Do Not Track”
-# defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
+defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 
 # Update extensions automatically
 defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
@@ -815,12 +815,6 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
-###############################################################################
-# GPGMail 2                                                                   #
-###############################################################################
-
-# Disable signing emails by default
-# defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault -bool false
 
 ###############################################################################
 # Opera & Opera Developer                                                     #

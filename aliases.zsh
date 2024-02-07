@@ -11,6 +11,7 @@ alias version="commit 'version'"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
+alias invoices="cd $HOME/Sites/invoices"
 
 # Laravel
 alias a="php artisan"
@@ -18,10 +19,11 @@ alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
 alias seed="php artisan db:seed"
 alias serve="php artisan serve"
+alias test="./vendor/bin/pest --parallel"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
-alias composer="php -d memory_limit=-1 /opt/homebrew/bin/composer"
+alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
