@@ -57,6 +57,8 @@ cask 'tunnelbear'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
+cask 'mixed-in-key'
+cask 'rekordbox'
 
 # Quicklook
 cask 'qlmarkdown'
