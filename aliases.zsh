@@ -47,3 +47,16 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+alias create-photo-dir="$HOME/.dotfiles/create-photo-dir.sh"
+
+nah() {
+    echo -n "Are you sure you want to clear all changes in git? (yes/no): "
+    read response
+    if [ "$response" = "yes" ]; then
+        echo "Resetting changes in git..."
+        git reset --hard HEAD
+        echo "Changes cleared successfully."
+    else
+        echo "Operation aborted."
+    fi
+}

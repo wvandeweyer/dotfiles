@@ -29,10 +29,7 @@ brew 'gifsicle'
 
 # Development
 brew 'imagemagick'
-brew 'meilisearch'
-brew 'mysql'
 brew 'node'
-brew 'redis'
 brew 'yarn'
 brew 'python3'
 
@@ -48,6 +45,7 @@ cask 'hugo'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
+cask 'nordvpn'
 cask 'spotify'
 cask 'tableplus'
 cask 'the-unarchiver'
@@ -80,11 +78,3 @@ mas 'Byword', id: 420212497
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
-mas 'Things', id: 904280696
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
-mas "Microsoft Outlook", id:985367838
-mas "Microsoft OneDrive", id:477537958
-mas "Microsoft Teams", id:1113153706
