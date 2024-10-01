@@ -1,7 +1,4 @@
 # Taps
-tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 
@@ -29,7 +26,6 @@ brew 'gifsicle'
 
 # Development
 brew 'imagemagick'
-brew 'node'
 brew 'yarn'
 brew 'python3'
 
@@ -51,12 +47,12 @@ cask 'tableplus'
 cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
-cask 'tunnelbear'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
 cask 'mixed-in-key'
 cask 'rekordbox'
+cask 'postman'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -72,9 +68,3 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
-
-# Mac App Store
-mas 'Byword', id: 420212497
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641

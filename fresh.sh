@@ -29,9 +29,6 @@ brew bundle --file ./Brewfile
 git config --global user.email "wvandeweyer@gmail.com"
 git config --global user.name "Wim Vandeweyer"
 
-# Set default MySQL root password and auth type
-mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
-
 # Create a projects directories
 mkdir $HOME/Code
 mkdir $HOME/Herd
